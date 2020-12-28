@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { Ratio2defComponent } from './ratio2def/ratio2def.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    Ratio2defComponent
   ],
   imports: [
     BrowserModule,

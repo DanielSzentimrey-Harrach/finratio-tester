@@ -1,0 +1,10 @@
+<div style="align-content: center;">
+<div class="card-container">
+    <div class="coverScreen" *ngIf="answered"></div>
+    <h2>{{str_ratio}}</h2>
+    <ul>
+        <li class="card" (click)="checkAnswer($event, def)" [ngClass]="{'success': def.highlight == 'green', 'failure': def.highlight == 'red', 'correctAnswer': def.highlight == 'yellow'}" *ngFor="let def of arr_defs">{{def.text}}</li>
+    </ul>    
+</div>
+<button (click)="nextQuestion()">Next</button>
+</div>
