@@ -4,6 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "clean": "rimraf ./dist",
+    "build:prod": "ng build --prod",
     "build": "ng build",
     "test":"ng test --no-watch --browsers=ChromeHeadlessCI",
     "test:watch": "ng test",
