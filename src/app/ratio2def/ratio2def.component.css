@@ -28,6 +28,7 @@ h2 {
     align-items: center;
     transition: all 0.2s ease-in-out;
     line-height: 24px;
+    text-align: center;
   }
 
   .success {
